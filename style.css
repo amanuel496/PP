@@ -1,0 +1,38 @@
+header {
+    width: fit-content;
+    height: 450px;
+    background-image: url(images/background.jpg);
+
+}
+
+/* header .my-profile1 {
+    width: auto; 
+    height: 450px;
+    padding-left: 50%; 
+    opacity: 0.05;
+
+} */
+
+header .my-profile2 {
+    width: 3000px; 
+    height: 400px;
+    padding-left: 20%; 
+    margin-top: 50px; 
+    margin-left: -400px;
+
+}
+
+.nav {
+    padding-left: 19%;
+}
+.nav .nav-link {
+    color: white;
+    margin-right: 40px;
+}
+
+.co {
+    float: right;
+    margin-right: 1800px;
+    margin-top: 10px;
+    color: white;
+}
