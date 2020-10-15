@@ -1,38 +1,44 @@
+body {
+  font-family: "Roboto Mono", monospace;
+}
 header {
-    width: fit-content;
-    height: 450px;
-    background-image: url(images/background.jpg);
-
+  width: auto;
+  height: auto;
+  background-image: linear-gradient(rgb(38, 35, 41), rgba(45, 0, 128, 0.918)),
+    url("images/background1.jpg");
+  background-size: cover;
+  background-position: 50%;
+  background-position: relative;
 }
 
-/* header .my-profile1 {
-    width: auto; 
-    height: 450px;
-    padding-left: 50%; 
-    opacity: 0.05;
-
-} */
-
-header .my-profile2 {
-    width: 3000px; 
-    height: 400px;
-    padding-left: 20%; 
-    margin-top: 50px; 
-    margin-left: -400px;
-
+.profile {
+  padding: 0px;
 }
 
-.nav {
-    padding-left: 19%;
-}
-.nav .nav-link {
-    color: white;
-    margin-right: 40px;
+.profile-avatar {
+  position: relative;
+  min-height: 1px;
+  margin-left: 200px;
+  margin-top: 130px;
 }
 
-.co {
-    float: right;
-    margin-right: 1800px;
-    margin-top: 10px;
-    color: white;
+.my-info {
+  margin-bottom: -50px;
+  margin-top: 330px;
+}
+
+.my-info,
+h1,
+pre {
+  color: white;
+}
+
+.nav,
+.my-nav,
+.nav-link {
+  font-size: 1.25rem;
+  color: white;
+  margin-right: 40px;
+  margin-top: 20px;
+  padding-left: 19%;
 }

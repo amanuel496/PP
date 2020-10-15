@@ -14,10 +14,16 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-        <ul class="nav my-nav">
+      <div class="row">
+        <div class="col">
+          <ul class="nav my-nav">
             <li class="nav-item">
               <a class="nav-link active" href="#">HOME</a>
             </li>
@@ -28,36 +34,31 @@
               <a class="nav-link" href="#">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
           </ul>
-      <!-- <div class="my-profile1">
-        <img
-          src="images/profile1.png"
-          class="img-fluid"
-          alt="Amanuel's profile picture"
-        />
-      </div> -->
-      <div>
-        <div class="my-profile2">
-            <img
-              src="images/profile2.jpg"
-              class="img-fluid"
-              alt="Amanuel's profile picture"
-            />
-            <div class="co">
-                <h1>Amanuel Chukala</h1>
-                <h5>An aspiring software engineer</h5>
-            </div>
-        </div>
-        <div class="row">
-
         </div>
       </div>
 
+      <div class="row profile">
+        <div class="cols-md-4 profile-avatar">
+          <img src="images/profile1.png" class="img-fluid" alt="avatar" />
+        </div>
+        <div class="cols-md-8 my-info">
+          <h1>Amanuel Chukala</h1>
+          <h5>
+            <pre>
+  An aspiring software engineer
+  Student at UC Denver
+  Denver 80231, Colorado
+                </pre
+            >
+          </h5>
+        </div>
+      </div>
     </header>
 
     <main></main>
