@@ -42,7 +42,7 @@ class Header extends Component {
 
         <div class="row profile">
           <div class="cols profile-avatar">
-            <img src={Profile} class="img-fluid" alt="avatar" />
+            <img src={Profile} className="img-fluid img-thumbnail" alt="avatar" />
           </div>
           <div class="cols my-info">
             <h1 style={{marginLeft:"-10px"}}>Amanuel Chukala</h1>
