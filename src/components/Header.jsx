@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import Profile from "./profile1.png"
-import Stylekk from "./comp.css"
+import Profile from "./profile1.png";
+import "./comp.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 class Header extends Component {
-  state = {};
   render() {
     return (
-      <header className="container-fluid p-3">
+      <header className="container p-0">
         <div className="row">
           <div className="col">
             <ul className="nav my-nav">
@@ -40,17 +39,29 @@ class Header extends Component {
           </div>
         </div>
 
-        <div class="row profile">
-          <div class="cols profile-avatar">
-            <img src={Profile} className="img-fluid img-thumbnail" alt="avatar" />
+        <div className="row">
+          <div className="col-sm-4 ">
+            <img
+              src={Profile}
+              style={{
+                backgroundColor: "transparent",
+                border: "none",
+              }}
+              className="img-fluid img-thumbnail"
+              alt="avatar"
+            />
           </div>
-          <div class="cols my-info">
-            <h1 style={{marginLeft:"-10px"}}>Amanuel Chukala</h1>
-            <h5>
-                An aspiring software engineer <br/> 
-                Student at UC Denver <br/>
-                Denver 80231, Colorado <br/>
-            </h5>
+          <div className="col-sm-8">
+            <p>
+              <div style={{ position: "absolute", bottom: "0px" }}>
+                <h1>Amanuel Chukala</h1>
+                <h5>
+                  An aspiring software engineer <br />
+                  Student at UC Denver <br />
+                  Denver 80231, Colorado <br />
+                </h5>
+              </div>
+            </p>
           </div>
         </div>
       </header>

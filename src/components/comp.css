@@ -1,5 +1,5 @@
 header {
-  height: 600px;
+  height: 1%;
   background-image: linear-gradient(rgb(38, 35, 41), rgba(45, 0, 128, 0.918)),
     url("background1.jpg");
   background-size: cover;
@@ -23,7 +23,7 @@ header {
 }
 
 .my-info {
-  margin-bottom: -50px;
+ margin-bottom: -50px;
   margin-top: 330px;
 }
 
